@@ -1,3 +1,14 @@
 # Extreme-Karim-Project
-This was submitted as a final project in Queen's University's Fundamentals of Software Development Course (CISC 320).
-An AGILE development practice was implemented into the group's work flow to ensure the game's completion in a 3 month period.
+This game was submitted as a final project in Queen's University's Fundamentals of Software Development Course (CISC 320). <br />
+An AGILE development practice was implemented into the group's work flow to ensure the game's completion in a 3 month period. <br />
+Other tools/technologies used: Jira, Confluence <br />
+Developers: <br />
+Akshaj Darbar <br />
+Evan Kilburn <br />
+Oscar San <br />
+Dajung Yoon <br />
+Navin Pandley <br />
+Evelyn Hubbard <br />
+Katrina Lam <br />
+Alexandra Cramarossa <br />
+
