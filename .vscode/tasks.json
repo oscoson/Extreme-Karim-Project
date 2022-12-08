@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ExtremeKarim Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win32",
+				"Debug",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win32",
+				"Debug",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ExtremeKarim Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win32",
+				"Debug",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ExtremeKarim Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win32",
+				"Development",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win32",
+				"Development",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ExtremeKarim Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win32",
+				"Development",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ExtremeKarim Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win32",
+				"Test",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win32",
+				"Test",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ExtremeKarim Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win32",
+				"Test",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win64",
+				"Debug",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win64",
+				"Debug",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ExtremeKarim Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win64",
+				"Debug",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ExtremeKarim Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win64",
+				"Development",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win64",
+				"Development",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ExtremeKarim Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win64",
+				"Development",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ExtremeKarim Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win64",
+				"Test",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win64",
+				"Test",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ExtremeKarim Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarim Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ExtremeKarim",
+				"Win64",
+				"Test",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarimEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarimEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarimEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarimEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ExtremeKarimEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarimEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ExtremeKarimEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarimEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarimEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarimEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarimEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ExtremeKarimEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarimEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ExtremeKarimEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarimEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarimEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarimEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ExtremeKarimEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ExtremeKarimEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "ExtremeKarimEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ExtremeKarimEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		}
+	]
+}

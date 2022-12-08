@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "ExtremeKarim (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ExtremeKarim Win64 Debug Build",
+			"program": "C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ExtremeKarim (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ExtremeKarim Win64 DebugGame Build",
+			"program": "C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ExtremeKarim (Development)",
+			"request": "launch",
+			"preLaunchTask": "ExtremeKarim Win64 Development Build",
+			"program": "C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ExtremeKarim (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "ExtremeKarim Win64 Shipping Build",
+			"program": "C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ExtremeKarim (Test)",
+			"request": "launch",
+			"preLaunchTask": "ExtremeKarim Win64 Test Build",
+			"program": "C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ExtremeKarimEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ExtremeKarimEditor Win64 Debug Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ExtremeKarimEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ExtremeKarimEditor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ExtremeKarimEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "ExtremeKarimEditor Win64 Development Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\ExtremeKarim.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+		}
+	]
+}

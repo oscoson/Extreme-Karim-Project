@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"name": "ExtremeKarimEditor Editor Win64 Development (ExtremeKarim)",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\.vscode\\compileCommands_ExtremeKarim.json"
+		},
+		{
+			"name": "Win32",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "C:\\Users\\aadid\\Documents\\Queen's University - Biomedical Computing\\Year 3\\CISC 320\\Second Copy\\team-1-adelaide\\ExtremeKarim\\.vscode\\compileCommands_Default.json"
+		}
+	]
+}
